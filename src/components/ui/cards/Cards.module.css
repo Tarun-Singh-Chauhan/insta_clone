@@ -1,0 +1,11 @@
+
+.cards{
+    width: 600px;
+    padding: .3em;
+}
+
+@media (max-width:600px){
+    .cards{
+        width: 100%;
+    }
+}

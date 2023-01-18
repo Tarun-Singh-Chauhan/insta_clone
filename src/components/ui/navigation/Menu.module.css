@@ -1,0 +1,11 @@
+.menu{
+    display: flex;
+    padding-right: 1.5em;
+}
+.icons{
+    margin-right: 1.5em;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,25 @@
+.suggestion{
+    margin-top: 1.25em;
+    
+}
+
+.title-container{
+    display: flex;
+    justify-content: space-between;
+font-size: 0.8em;
+font-weight: 700;
+color: rgba(56, 56, 56, 0.92);
+margin-bottom: 1.25em;
+}
+
+.title{
+    min-width: 200px;
+    font-size: 1em;
+    font-weight: 900;
+}
+
+ a{
+    width: 100%;
+text-align: right;
+/* color: rgb(0, 0, 0); */
+}

@@ -1,0 +1,74 @@
+.card {
+  border: 1px solid gray;
+  background-color: white;
+  margin-bottom: 3.5rem;
+  border-radius: 5px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75em;
+}
+
+.profile {
+  margin-bottom: 0;
+  height: 100%;
+  width: 90%;
+}
+.card-button {
+  height: 30px;
+  cursor: pointer;
+}
+
+.card-image {
+  /* height: 100%; */
+  width: 100%;
+  display: block;
+}
+
+.liked-by{
+    display: flex;
+    padding-left: 1em;
+}
+.liked-by span{
+    font-size: 0.75em;
+    margin-left: 0.5em;
+    padding-top: 0.5em;
+}
+.comments{
+    margin-bottom: 0.75em;
+}
+.time-posted{
+    font-size: .6em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    color: rgba(0, 0, 0, 0.796);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.874);
+}
+.add-comment{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85em;
+    padding: 1.5em 1.25em;
+}
+.comment-text{
+    color: rgba(0, 0, 0, 0.689);
+}
+.post-text{
+    color: rgba(0, 183, 255, 0.837);
+}
+
+@media only screen and (max-width:640px){
+    .card{
+        border: none;
+        background-color: rgba(241, 241, 241, 0.905);
+        margin-bottom: 0.75em;
+    }
+    .add-comment{
+        display: none;
+    }
+    .time-posted{
+        border: none;
+    }
+}

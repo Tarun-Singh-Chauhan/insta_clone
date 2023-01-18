@@ -1,0 +1,36 @@
+.profile {
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+  margin-bottom: 0.85em;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+  min-width: 100px;
+}
+
+.account-name {
+  font-weight: 700;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.account-name:hover {
+  text-decoration: underline;
+}
+.caption {
+  color: rgba(0, 0, 0, 0.931);
+}
+
+.caption:small {
+  font-size: 0.8rem;
+}
+
+a{
+  text-align: left;
+  width: 100%;
+  font-weight: 700;
+  color: rgb(2, 183, 255);
+}
