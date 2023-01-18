@@ -4,7 +4,6 @@ import profileImg from "../../../images/profileImg.jpg";
 import Profile from "./Profile";
 import Suggestion from "./Suggestion";
 import Footer from "./Footer";
-import { Switch } from "react-router-dom";
 
 const Sidebar = () => {
   return (
